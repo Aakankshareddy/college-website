@@ -8,7 +8,7 @@ public class DBUtil {
 	public static Connection getMySqlConnection() throws Exception {
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection con = DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/testDB", "root", "akhilesh");
+				"jdbc:mysql://localhost:3306/test", "root", "123");
 		return con;
 	}
 
